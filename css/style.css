@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Nanum+Pen+Script&family=Shojumaru&display=swap');
+
+:root{
+	
+	--color-general: #999;
+	--color-titulos: #29373c;
+	--fondo-gris: #f9faf2;
+	--fondo-footer: #f49f28;
+	--titulo-halloween: #FFAC2C;
+	
+}
+
+header{
+	
+	position: absolute;
+	width: 100%;
+	padding-top: 25px;
+}
+
+body{
+	
+	font-family: "Nanum Pen Script", sans-serif;
+	color: var(--color-general);
+}
+
+h1{
+	font-family: "Shojumaru", sans-serif;
+}
+
+#HeroTitle{
+	
+	background-image: url("../img/bg-hero.png");
+	background-position: center;
+	background-size: cover;
+	
+	padding: 10% 10%;
+	
+}
+
+#HeroTitle h1{
+	
+	text-align: center;
+	color: var(--titulo-halloween);
+	font-size: 80px;
+	margin-bottom: 150px;
+}
+
+#HeroTitle p{
+	
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+.halloweenamarillo{
+	color: var(--fondo-footer);
+}
+
+.btnshopnow{
+	
+	background-color: #FEC107;
+	padding: 10px 15px;
+	text-align: center;
+	color: #000;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-left: 45%;
+}
+
+.btnshopnow:hover{
+	
+	background-color: #fff;
+	color: #000;
+}
+
+#offers{
+	
+	padding: 10% 5%;
+	color: #000;
+	text-align: center;
+}
+
+#offers h2{
+	
+	text-align: center;
+	font-size: 50px;
+}
+
+#offers h3{
+	
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+
+.columnas1{
+	
+	margin-top: 5%;
+}
+
+.columnas1 h3{
+	
+	margin-top: 3%;
+}
+
+.columnas1 p{
+	
+	font-size: 20px;
+	color: var(--color-general);
+}
+
+#faq{
+	padding: 10% 5%;
+	background-color: var(--fondo-gris);
+}
+
+#faq h2,h3{
+	
+	color: var(--color-titulos);
+}
+
+#faq h2{
+	font-size: 55px;
+}
+#faq p{
+	
+	font-size: 20px
+}
+.btnfaq{
+	background-color: #000;
+	color: #fff;
+	padding: 0 10px;
+	font-size: 20px;
+}
+.btnfaq:hover{
+	background-color: var(--fondo-footer);
+	color: #000;
+}
+.columna2{
+	
+	color: #000;
+}
+
+#services{
+	padding: 10% 5%;
+	text-align: center;
+}
+
+.columnashorizontales{
+	
+	align-content: center;
+	text-align: center;
+}
+
+#services h2{
+	
+	padding-top: 5%;
+	color: var(--color-titulos);
+	font-size: 40px;
+}
+
+#services p{
+	
+	font-size: 21px;
+}
+
+.columnashorizontales img{
+	width: 100px;
+}
+
+footer{
+	
+	padding: 5% 5%;
+	background-color: var(--fondo-footer);
+	text-align: center;
+	
+}
+
+footer p{
+	
+	margin-top: 30px;
+	color: #000;
+	font-size: 20px;
+}
+
+
